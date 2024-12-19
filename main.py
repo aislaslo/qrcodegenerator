@@ -9,3 +9,4 @@ qr.make(fit=True)
 image = qr.make_image(fill="black", black_color="yellow")
 
 image.save("qr_code.png")
+print("QR code generated")
